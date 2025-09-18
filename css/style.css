@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #4aaffb !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align: left !important;
+}
+
+
+/* Estilos para Titulos */
+header {
+    background-color: #0076ce;
+    color: aliceblue;
+    text-align: center;
+    padding: 2em;
+}
+
+.imgperfil {
+    width: 10%;
+    border-radius: 45%;
+    border: black 0.2em solid;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.caixas {
+    text-align: left;
+    margin-top: 1% !important;
+    margin-bottom: 15% !important;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    padding: 2em !important;
+}
+
+.caixa {
+    background-color: white !important;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 80% !important;
+    border-style: dotted !important;
+}
+
+.imgicon {
+    width: 80% !important;
+}
+
+.imgtxt {
+    font-size: 200% !important;
+}
+
+
+.caixaimg {
+    position: absolute !important;
+    width: 10% !important;
+    top: 70%;
+    left: 72%;
+}
+
+.imglateral {
+    width: 250% !important;
+}
+
+
+footer {
+    background-color: aliceblue !important;
+    padding: 1em !important;
+    text-align: center !important;
+}
+
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .imgicon {
+        width: 270% !important;
+    }
+
+    .imgtxt {
+        font-size: 180% !important;
+    }
+
+    .caixa {
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130%;
+    }
+
+    .caixas {
+        text-align: center;
+        margin-top: 1% !important;
+        margin-bottom: 50% !important;
+        margin-left: 10% !important;
+        margin-right: 25% !important;
+        width: 90% !important;
+
+    }
+
+    .imgperfil {
+        width: 30% !important;
+        border-radius: 45% !important;
+    }
+
+    .caixaimg {
+        position: static !important;
+        padding: 2.5em !important;
+        margin-top: 2em !important;
+        width: 100% !important;
+        left: 0.1%;
+        height: 60%;
+    }
+
+    .imglateral {
+        width: 80% !important;
+    }
+}
